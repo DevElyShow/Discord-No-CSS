@@ -1,0 +1,206 @@
+
+
+/* Import fonts */
+@font-face {
+    font-family: Luckiest_Guy;
+    src: url(../fonts/LuckiestGuy.ttf);
+}
+@font-face {
+    font-family: Open_Sans;
+    src: url(../fonts/OpenSans.ttf);
+}
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Geral Container */
+.geral-container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Header  */
+
+header {
+    background-image: url(../img/HeaderBackground.png);
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    color: #ffffff;
+}
+ .container-header {
+    margin: auto;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 1em;
+ }
+ .title-header {
+    font-family: Luckiest_Guy;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding: 2%;
+    margin: 0 25rem;
+ }
+ .container-header p {
+    font-family: Open_Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 15rem 1.2rem 15rem;
+ }
+ .bt-header {
+    padding: 0.6em 2em;
+    border-radius: 50px;
+    font-family: Open_Sans;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    color: #23272A;
+    cursor: pointer;
+ }
+ .bt-openBrowser {
+    margin-left: 15px;
+    background-color: #23272A;
+    color: #ffffff;
+ }
+
+ /* Main */
+
+.main-contents {
+    display: flex;
+    padding: 3rem 5rem 5rem 5rem;
+    align-items: center;
+    width: 100%;
+}
+.main-content-text h2, .main-content-text p { font-family: Open_Sans; }
+
+.main-content-text h2 {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0 7rem 0 5rem;
+}
+.main-content-text p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem 5rem 0 5rem;
+}
+.section-gray { background-color: #F6F6F6; }
+
+.last-main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.last-main-content article h2, .last-main-content article p { text-align: center; }
+
+.last-main-content article h2 {
+    font-family: Luckiest_Guy;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 2rem 20rem 0 20rem;
+}
+.last-main-content article p {
+    font-family: Open_Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2rem 10rem;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #23272A;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+ /* Breackpoint mobile */
+
+ @media screen and (max-width: 430px) {
+    /* Header */
+    header,
+    .geral-container,
+    .container-header,
+    .title-header,
+    .container-header p
+    {
+        margin: 0;
+        padding: 0;
+     }
+    
+     header {
+        background-image: url(../img/HeaderBackground_mobile.png);
+        padding-bottom: 16%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+     }
+    .container-header {
+        text-align: left;
+    }
+    .title-header {
+        font-size: 32px;
+        font-weight: 400;
+        letter-spacing: normal;
+        width: 70%;
+        padding: 2em 1em 0 1em;
+    }
+    .container-header p {
+        padding: 1.5em;
+    }
+    .bt-header {
+        width: 90%;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    /* Main */
+    .main-contents, .last-main-content {
+        display: grid;
+    }
+
+    .main-contents,
+    .main-content-text,
+    .main-content-text h2,
+    .main-content-text p,
+    .last-main-content article h2,
+    .last-main-content article p,
+    footer
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .main-contents div img, .last-main-content div img {
+        width: 23rem;
+    }
+    .main-contents div img {
+        margin: 2rem 0 1rem 8%;
+    }
+    .main-content-text h2{
+        font-size: 24px;
+        padding-bottom: 2rem;
+    }
+    .main-content-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    .main-contents article { order: 1; }
+    .last-main-content article h2 { margin: 2rem 0; }
+    .last-main-content article h2, .last-main-content article p { text-align: left; }
+
+    /* Footer */
+    footer img {
+        width: 162px;
+        padding: 2rem 0 2rem 0;
+    }
+ }
+
+
+ 
+ 
