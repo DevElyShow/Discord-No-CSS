@@ -11,6 +11,10 @@ Este projeto foi criado como parte do meu aprendizado em desenvolvimento web fro
 🔗 **Acesse o site publicado:**  
 👉 https://clone-discord-chi.vercel.app/
 
+<p align="center">
+  <img src="assets/img/screenshot.png" alt="Discord" width="800">
+</p>
+
 ---
 
 ## 🛠️ Tecnologias utilizadas
