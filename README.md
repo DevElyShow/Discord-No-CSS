@@ -1,4 +1,4 @@
-# 💬 Discord Clone — HTML & CSS
+# 💬 Discord Clone
 
 Clone da interface do site do **Discord**, desenvolvido com **HTML5** e **CSS3**, com foco em praticar estruturação de layouts, estilização e responsividade.
 
